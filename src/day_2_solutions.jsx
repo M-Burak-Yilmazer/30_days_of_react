@@ -41,15 +41,22 @@ const section = (
     </div>
   </header>
 );
+const techs = ["HTML", "CSS", "JavaScript"];
+const techFormatted = techs.map((tech) => <li key={tech}>{tech}</li>);
 
+// JSX element, main
 const main = (
-  <main style={mainStyles}>
-    <p>Prerequisite to get started react.js:</p>
-    <ul style={mainStyles}>
-      <li>HTML</li>
-      <li>CSS</li>
-      <li>JavaScript</li>
-    </ul>
+  <main>
+    <div className="main-wrapper">
+      <p>
+        Prerequisite to get started{" "}
+        <strong>
+          <em>react.js</em>
+        </strong>
+        :
+      </p>
+      <ul>{techFormatted}</ul>
+    </div>
   </main>
 );
 
