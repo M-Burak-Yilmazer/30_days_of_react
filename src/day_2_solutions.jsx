@@ -3,7 +3,7 @@
 
 const header = (
   <header>
-    <h1>Welcome 30 of the react</h1>
+    <h1>Welcome 30 year of the react</h1>
     <h2>Getting Star,ted React</h2>
     <h3>Javascript Library</h3>
   </header>
