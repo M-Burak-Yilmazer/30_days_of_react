@@ -1,6 +1,5 @@
 import imageFile from "./images/frontend_technologies.png";
-import image from "./images/asabeneh.jpg"
-import Style from "./style.css";
+import imageFils from "./images/asabeneh.jpg";
 
 const header = (
   <div
@@ -9,6 +8,7 @@ const header = (
       textAlign: "center",
       padding: "1rem",
       borderRadius: "20px",
+      marginBottom: "1rem",
     }}
   >
     <h1>SUBSCRIBE</h1>
@@ -53,9 +53,23 @@ const formattedSkills = skills.map((item) => (
 ));
 const main = (
   <div>
-    <img src="{image}" alt="" />
+    <img
+      style={{ borderRadius: "50%", width: "250px" }}
+      src={imageFils}
+      alt="asabeneh"
+    />
     <h3>
-      Asabeneh YETAYEH <span>✔️</span>
+      Asabeneh YETAYEH{" "}
+      <span
+        style={{
+          backgroundColor: "red",
+          padding: "5px",
+          color: "white",
+          borderRadius: "50%",
+        }}
+      >
+        ✔️
+      </span>
     </h3>
     <p>Senior Developer, Finland</p>
     <h3>Skills</h3>
