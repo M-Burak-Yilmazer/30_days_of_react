@@ -10,5 +10,5 @@ const header = (
 );
 
 export function DAY_2_SOLUTIONS() {
-  return header;
+  return <div>{header}</div>;
 }
